@@ -33,49 +33,162 @@ Bootflat
 Groundwork
 ...
 
-
-# What we learn
-
-Multi-column layouts
-Form layouts
-Button groups
-Button dropdowns
-Input groups
-Navs
-Navbar
-Dropdowns
-Breadcrumbs
-Pagination
-Labels
-Badges
-Jumbotron
-Page header
-Thumbnails
-Alerts
-Progress bars
-List group
-Panels
-Media object
-Responsive embed
-Wells
-Glyphicons
-Modal Box
-Dropdown
-Scrollspy
-Tab
-Tooltip
-Popover
-Alert
-Collapse
-Carousel
-Affix
-
 =====================================================================
 =====================================================================
+
+# Break Points in Bootstrap
+
+                
+Extra Large => 1200px         |  1140px
+Large => 992px                |  960px
+Medium => 768px               |  720px
+Small => 576px                |  540px
+Extra Small => 576px less     |  Auto
+
+Extra large => xl
+Large => lg
+Medium => md
+Small => sm
+Extra Small => xs / auto
+
 
 **CLasses** 
 
 container
 container-fluid
 row
+
+# col
+
+col length => 1-12
+
 col
+col-4
+col-md-4
+
+
+# offset
+
+
+offset-4
+offset-xl-4
+offset-lg-2
+offset-md-6
+offset-sm-1
+
+
+# orders
+
+order-first
+order-last
+order-xl-last    ===    order-xl-first 
+order-lg-last    ===    order-lg-first 
+order-md-last    ===    order-md-first 
+order-sm-last    ===    order-sm-first 
+
+0-11 / 1-12
+
+order-1
+order-xl-1
+order-lg-1
+order-md-1
+order-sm-1
+
+# Nesting Classes
+
+# Margin Classes
+
+m-auto
+mx-auto
+my-auto
+mt-auto
+mb-auto
+mr-auto
+ml-auto
+
+for responsive => xl, lg, md, sm
+
+1rem = 16px
+
+m-0 => 0px  
+m-1 => 0.25rem
+m-2 => 0.5rem
+m-3 => 1rem
+m-4 => 1.5rem
+m-5 => 3rem
+
+for responsive => xl, lg, md, sm
+
+# Negative margin 
+
+m-n0 => -0px  
+m-n1 => -0.25rem
+m-n2 => -0.5rem
+m-n3 => -1rem
+m-n4 => -1.5rem
+m-n5 => -3rem
+
+for responsive => xl, lg, md, sm
+
+# Padding Classes
+
+p-auto
+px-auto
+py-auto
+pt-auto
+pb-auto
+pr-auto
+pl-auto
+
+for responsive => xl, lg, md, sm
+
+1rem = 16px
+
+p-0 => 0px  
+p-1 => 0.25rem
+p-2 => 0.5rem
+p-3 => 1rem
+p-4 => 1.5rem
+p-5 => 3rem
+
+for responsive => xl, lg, md, sm
+
+# Negative Padding 
+
+p-n0 => -0px  
+p-n1 => -0.25rem
+p-n2 => -0.5rem
+p-n3 => -1rem
+p-n4 => -1.5rem
+p-n5 => -3rem
+
+for responsive => xl, lg, md, sm
+
+# Horizontal Alignment
+
+.text-left => text-align: left
+.text-center => text-align: center
+.text-right => text-align: right
+.text-justify => text-align: justify
+
+.justify-content-end => justify-content: end
+.justify-content-start => justify-content: start
+.justify-content-center => justify-content: center
+.justify-content-between => justify-content: between
+.justify-content-evently => justify-content: evently
+
+screenSize responsive:- xl, lg, md, sm
+
+.text-screenSize-left => text-align: left
+.text-screenSize-center => text-align: center
+.text-screenSize-right => text-align: right
+.text-screenSize-justify => text-align: justify
+
+.justify-content-screenSize-end => justify-content: end
+.justify-content-screenSize-start => justify-content: start
+.justify-content-screenSize-center => justify-content: center
+.justify-content-screenSize-between => justify-content: between
+.justify-content-screenSize-evently => justify-content: evently
+
+
+
