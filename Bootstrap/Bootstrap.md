@@ -96,6 +96,73 @@ order-lg-1
 order-md-1
 order-sm-1
 
+
+.order-0
+.order-1
+.order-2
+.order-3
+.order-4
+.order-5
+.order-6
+.order-7
+.order-8
+.order-9
+.order-10
+.order-11
+.order-12
+.order-sm-0
+.order-sm-1
+.order-sm-2
+.order-sm-3
+.order-sm-4
+.order-sm-5
+.order-sm-6
+.order-sm-7
+.order-sm-8
+.order-sm-9
+.order-sm-10
+.order-sm-11
+.order-sm-12
+.order-md-0
+.order-md-1
+.order-md-2
+.order-md-3
+.order-md-4
+.order-md-5
+.order-md-6
+.order-md-7
+.order-md-8
+.order-md-9
+.order-md-10
+.order-md-11
+.order-md-12
+.order-lg-0
+.order-lg-1
+.order-lg-2
+.order-lg-3
+.order-lg-4
+.order-lg-5
+.order-lg-6
+.order-lg-7
+.order-lg-8
+.order-lg-9
+.order-lg-10
+.order-lg-11
+.order-lg-12
+.order-xl-0
+.order-xl-1
+.order-xl-2
+.order-xl-3
+.order-xl-4
+.order-xl-5
+.order-xl-6
+.order-xl-7
+.order-xl-8
+.order-xl-9
+.order-xl-10
+.order-xl-11
+.order-xl-12
+
 # Nesting Classes
 
 # Margin Classes
@@ -192,6 +259,32 @@ screenSize responsive:- xl, lg, md, sm
 .justify-content-screenSize-between => justify-content: between
 .justify-content-screenSize-evently => justify-content: evently
 
+.justify-content-start
+.justify-content-end
+.justify-content-center
+.justify-content-between
+.justify-content-around
+.justify-content-sm-start
+.justify-content-sm-end
+.justify-content-sm-center
+.justify-content-sm-between
+.justify-content-sm-around
+.justify-content-md-start
+.justify-content-md-end
+.justify-content-md-center
+.justify-content-md-between
+.justify-content-md-around
+.justify-content-lg-start
+.justify-content-lg-end
+.justify-content-lg-center
+.justify-content-lg-between
+.justify-content-lg-around
+.justify-content-xl-start
+.justify-content-xl-end
+.justify-content-xl-center
+.justify-content-xl-between
+.justify-content-xl-around
+
 ======================================================================
 
 # Vertical Alignment
@@ -214,6 +307,134 @@ align-content-between
 align-content-around
 align-content-stretch
 
+
+.align-items-start
+.align-items-end
+.align-items-center
+.align-items-baseline
+.align-items-stretch
+.align-items-sm-start
+.align-items-sm-end
+.align-items-sm-center
+.align-items-sm-baseline
+.align-items-sm-stretch
+.align-items-md-start
+.align-items-md-end
+.align-items-md-center
+.align-items-md-baseline
+.align-items-md-stretch
+.align-items-lg-start
+.align-items-lg-end
+.align-items-lg-center
+.align-items-lg-baseline
+.align-items-lg-stretch
+.align-items-xl-start
+.align-items-xl-end
+.align-items-xl-center
+.align-items-xl-baseline
+.align-items-xl-stretch
+
+
+===========================================================
+
+**Flex Classes**
+
+.d-flex
+.d-inline-flex
+.d-sm-flex
+.d-sm-inline-flex
+.d-md-flex
+.d-md-inline-flex
+.d-lg-flex
+.d-lg-inline-flex
+.d-xl-flex
+.d-xl-inline-flex
+
+
+.flex-row
+.flex-row-reverse
+.flex-column
+.flex-column-reverse
+.flex-sm-row
+.flex-sm-row-reverse
+.flex-sm-column
+.flex-sm-column-reverse
+.flex-md-row
+.flex-md-row-reverse
+.flex-md-column
+.flex-md-column-reverse
+.flex-lg-row
+.flex-lg-row-reverse
+.flex-lg-column
+.flex-lg-column-reverse
+.flex-xl-row
+.flex-xl-row-reverse
+.flex-xl-column
+.flex-xl-column-reverse
+
+
+.flex-nowrap
+.flex-wrap
+.flex-wrap-reverse
+.flex-sm-nowrap
+.flex-sm-wrap
+.flex-sm-wrap-reverse
+.flex-md-nowrap
+.flex-md-wrap
+.flex-md-wrap-reverse
+.flex-lg-nowrap
+.flex-lg-wrap
+.flex-lg-wrap-reverse
+.flex-xl-nowrap
+.flex-xl-wrap
+.flex-xl-wrap-reverse
+
+
+**gap**
+
+gap-1
+gap-2
+gap-3
+gap-4
+...
+
+**font**
+
+<p class="fs-1">.fs-1 text</p>
+<p class="fs-2">.fs-2 text</p>
+<p class="fs-3">.fs-3 text</p>
+<p class="fs-4">.fs-4 text</p>
+<p class="fs-5">.fs-5 text</p>
+<p class="fs-6">.fs-6 text</p>
+
+
+<p class="fw-bold">Bold text.</p>
+<p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+<p class="fw-normal">Normal weight text.</p>
+<p class="fw-light">Light weight text.</p>
+<p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+<p class="fst-italic">Italic text.</p>
+<p class="fst-normal">Text with normal font style</p>
+
+
+text-decoration-underline
+text-decoration-none
+text-decoration-line-through
+
+
+<p class="text-lowercase">Lowercased text.</p>
+<p class="text-uppercase">Uppercased text.</p>
+<p class="text-capitalize">CapiTaliZed text.</p>
+
+
+**button**
+
+  <button type="button" class="btn btn-danger">Left</button>
+  <button type="button" class="btn btn-warning">Middle</button>
+  <button type="button" class="btn btn-success">Right</button>
+  <button type="button" class="btn btn-outline-primary">Right</button>
+  <button type="button" class="btn btn-secondary">5</button>
+  <button type="button" class="btn btn-info">8</button>
 
 
 
