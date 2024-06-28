@@ -11,13 +11,11 @@ Backgrouond-color	=>	RGB, hex
 line-height	=>	normal, number, %, pixel, em, rem
 text-align: 2rem;
 text-decoration: 2rem;
+text-decoration: underline solid red 2px;             *
 text-transform: 2rem;
 text-indent: 12rem;
 
 1 %  ====	0.16 px
-
-
-
 
 List Propertise
 
@@ -40,7 +38,11 @@ font-weight: 500;
 
 CSS Selectors Classes & Id
 
+Custom Fonts
+letter spacing
+
 width
+%,vw,vh,px,rem,em
 height
 
 universal property
@@ -49,16 +51,38 @@ Links Properties
 
 a:visited
 a:active
-a:hover
-
+a:hover,focus
+accent-color
+text/box shadow
+filter
 first-child
 last-child
 
 margin
 padding
-border
+border => dotted, dashed,double,solid
 Inspect Browser
+resize 
+text transform
 
+
+Backgrouond image
+
+display properties
+gap
+cursor
+flex direction
+flex wrap
+zindex
+overflow 
+before
+after
+
+animinations
+
+clip path
+
+responsive
 
 ============last========
 
@@ -74,3 +98,7 @@ gd
 vh
 vw
 vm
+
+=====
+
+html to css autocomplete
