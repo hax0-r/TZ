@@ -135,6 +135,10 @@ I
 <img>
 <img src="image.jpg" loading="lazy" alt="image">
 
+<video src="" controls autoplay muted loop></video>
+<audio src="" controls ></audio>
+
+
 <kbd>
 <label>
 <output>

@@ -38,6 +38,26 @@ font-style: italic;
 font-variant: small-caps;
 font-weight: 500;
 
+CSS Selectors Classes & Id
+
+width
+height
+
+universal property
+
+Links Properties
+
+a:visited
+a:active
+a:hover
+
+first-child
+last-child
+
+margin
+padding
+border
+Inspect Browser
 
 
 ============last========
