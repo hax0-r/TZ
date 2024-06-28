@@ -101,7 +101,17 @@ I
 <label>
 <span>
 <strong>
-<acronym> => <abbr>
+<acronym> === <abbr>
+<abbr title="Show On Hover">Hover Me</abbr>
+<font size="50">Hello world</font>
+
+
+<body bgcolor="red" text="white" ></body>
+<P onselectStart="return false" ondragstart="return false">User selected none</P>
+
+
+
+
 
 {
     <bdo dir="rtl">
@@ -137,6 +147,10 @@ I
 <strong>
 <sub>
 <sup>
+<ruby> second <rt>Top</rt> </ruby>
+<s> Cut Price  </s>
+
+
 <time> => <p>Open from 10:00 to <time>21:00</time> every weekday.</p> 
 {
     <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
@@ -163,24 +177,24 @@ https://www.toptal.com/designers/htmlarrows/symbols/
 
 # Tables
 
-<table>
-  <caption></caption>
-  <tr>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
+    <table border="1" cellspacing="0" cellpadding="10" width="500">
+        <caption>Date Sheet</caption>
+        <tr align="left , center">
+            <th></th>
+            <th nowrap></th>
+            <th></th>
+        </tr>
+        <tr align="right">
+            <td colspan="2"></td>
+            <td rowspan="2"></td>
+            <td></td>
+        </tr>
+        <tr >
+            <td ></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
 
 =========================================
 
